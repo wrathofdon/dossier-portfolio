@@ -1,0 +1,30 @@
+.links
+{
+  margin: 0 1em 1em 0;
+  padding: 0.3em;
+}
+.shareBox
+{
+  text-align:center;
+  overflow:hidden !important;
+  height:auto !important;
+}
+
+
+.shareBox a
+{
+  background: none repeat scroll 0 0 #f6a828;
+  border-radius: 35px;
+  color: #fff;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  width: 35px;
+  height:35px;
+}
+
+ul {
+  list-style-type: none;
+}
