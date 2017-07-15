@@ -28,12 +28,12 @@ div.container {
 
 .topBox a {
   text-align: center;
-  background: none repeat scroll 0 0 hotPink;
+  background: none repeat scroll 0 0;
   border-radius: 35px;
   color: #000000;
   display: inline-block;
   font-size: 50px;
-  font-weight: bold;
+  font-weight: normal;
   padding: 5px;
   width: 65px;
   height: 65px;
@@ -49,13 +49,35 @@ div.container {
   color: #000000;
   display: inline-block;
   font-size: 50px;
-  font-weight: bold;
+  font-weight: normal;
   width: 65px;
   height: 65px;
 }
 
 #github, #instagram {
   background: gold;
+  color: black;
+  border-radius: 35px;
+  display: inline-block;
+  font-size: 50px;
+  font-weight: normal;
+  padding: 5px;
+  width: 65px;
+  height: 65px;
+
+}
+
+#home, #linkedIn, #codepen {
+  background: hotpink;
+  color: black;
+  border-radius: 35px;
+  display: inline-block;
+  font-size: 50px;
+  font-weight: normal;
+  padding: 5px;
+  width: 65px;
+  height: 65px;
+
 }
 
 .links {
@@ -96,11 +118,27 @@ ul.links li {
   border: 1px solid #000;
   float: right;
   min-height: 500px;
-  width: 72%;
+  width: 71%;
   padding: 8px;
 }
 
-@media only screen and (min-width: 350px) {
-  .heading-group-h1 {
-    padding: .1em .1em .1em 2em;
-    float: none;
+@media only screen and (max-width: 750px) {
+  #hamburger{visibility: hidden;}
+
+  }
+
+  @media only screen and (max-width: 650px) {
+  .topBox .home{visibility: hidden; padding: 2px;}
+    }
+  @media only screen and (max-width: 600px) {
+  .topBox .github{visibility: hidden; padding: 2px;}
+      }
+  @media only screen and (max-width: 550px) {
+  .topBox .linkedIn{visibility: hidden; padding: 2px;}
+    }
+  @media only screen and (max-width: 500px) {
+  .topBox .instagram{visibility: hidden; padding: 2px;}
+    }
+  @media only screen and (max-width: 450px) {
+  .topBox .codepen{visibility: hidden; padding: 2px;}
+    }
