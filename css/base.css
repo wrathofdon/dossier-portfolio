@@ -5,23 +5,44 @@ body {
   width: 100%;
 }
 
+//responsive design
 @media only screen and (max-width: 750px) {
-  #hamburger{visibility: hidden;}
-
+  #hamburger {
+    visibility: hidden;
   }
+}
 
-  @media only screen and (max-width: 400px) {
-  .topBox .home{visibility: hidden; padding: 2px;}
-    }
-  @media only screen and (max-width: 500px) {
-  .topBox .github{visibility: hidden; padding: 2px;}
-      }
-  @media only screen and (max-width: 550px) {
-  .topBox .linkedIn{visibility: hidden; padding: 2px;}
-    }
-  @media only screen and (max-width: 600px) {
-  .topBox .instagram{visibility: hidden; padding: 2px;}
-    }
-  @media only screen and (max-width: 650px) {
-  .topBox .codepen{visibility: hidden; padding: 2px;}
-    }
+@media only screen and (max-width: 400px) {
+  .topBox .home {
+    visibility: hidden;
+    padding: 2px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .topBox .github {
+    visibility: hidden;
+    padding: 2px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .topBox .linkedIn {
+    visibility: hidden;
+    padding: 2px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .topBox .instagram {
+    visibility: hidden;
+    padding: 2px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .topBox .codepen {
+    visibility: hidden;
+    padding: 2px;
+  }
+}
