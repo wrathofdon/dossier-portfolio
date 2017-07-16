@@ -32,12 +32,17 @@ div.container {
   height: 65px;
 }
 
-.topBox #hamburger a {
+.hide {
   float: right;
   padding: 5px;
-  padding-right: 5px;
+  text-align: center;
+  display: inline-block;
+
+}
+#hamburger {
   text-align: center;
   background: none repeat scroll 0 0 greenYellow;
+  padding: 5px;
   border-radius: 35px;
   color: #000000;
   display: inline-block;
