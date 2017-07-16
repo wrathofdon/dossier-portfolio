@@ -6,7 +6,7 @@ body {
 }
 
 //responsive design
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 650px) {
   #hamburger {
     visibility: hidden;
   }
