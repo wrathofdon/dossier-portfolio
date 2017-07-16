@@ -10,7 +10,7 @@ body {
 
   }
 
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 400px) {
   .topBox .home{visibility: hidden; padding: 2px;}
     }
   @media only screen and (max-width: 500px) {
