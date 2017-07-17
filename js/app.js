@@ -17,10 +17,10 @@ function Display(filePath, petName, species, people, costume, owner, tag) {
   pixArray.push(this);
 }
 
-new Display('images/bailey.jpg', ['Bailey'], ['Dog'], ['Savannah'], false, 'Linda', ['ShiTzuDoodle']);
-new Display('images/baileyBed.jpg', ['Bailey'], ['Dog'], false, false, 'Linda', ['ShiTzuDoodle']);
-new Display('images/baileyDance.jpg', ['Bailey'], ['Dog'], ['Savannah'], false, 'Linda', ['ShiTzuDoodle']);
-new Display('images/bails.jpg', ['Bailey'], ['Dog'], false, false, 'Linda', ['ShiTzuDoodle']);
+new Display('images/bailey.jpg', ['Bailey'], ['Dog'], ['Savannah'], false, 'Linda', ['ShiZuDoodle']);
+new Display('images/baileyBed.jpg', ['Bailey'], ['Dog'], false, false, 'Linda', ['ShiZuDoodle']);
+new Display('images/baileyDance.jpg', ['Bailey'], ['Dog'], ['Savannah'], false, 'Linda', ['ShiZuDoodle']);
+new Display('images/bails.jpg', ['Bailey'], ['Dog'], false, false, 'Linda', ['ShiZuDoodle']);
 new Display('images/belind.jpg', ['Belle,Indie'], ['Dog'], false, false, 'Me', ['IG', 'Italian Greyhound']);
 new Display('images/belleIndieSteve.jpg', ['Belle', 'Indie', 'Steve'], ['Dog'], false, false, 'Me', ['IG', 'Italian Greyhound','Chihuahua']);
 new Display('images/biscuit.jpg', ['Biscuit'], ['Cat'], false, false, 'Savannah', ['Tabby', 'Domestic Shorthair']);
@@ -86,7 +86,7 @@ var count = 0;
 function eventListener(event) {
   let selectedPix = event.target.id;
   for (let k = 0; k < pixArray.length; k++) {
-    if (selectedPix === pixArray[k].petName) {
+    if (selectedPix === pixArray[k]) {
       pixArray[k].clicks++;
       count++;
     }
