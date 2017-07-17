@@ -50,6 +50,7 @@ div.container {
   font-weight: normal;
   width: 65px;
   height: 65px;
+  visibility: hidden;
 }
 
 #github, #instagram {
@@ -93,16 +94,25 @@ ul.links {
   margin: 20px 20px 0 0;
   padding: 0;
   text-align: left;
-  width: 70%;
 }
 
 ul.links li {
   display: inline-block;
   margin: 0;
   padding: 0;
-  width: 15%;
   cursor: pointer;
 }
+
+
+@media only screen and (max-width: 450px) {
+  ul.links li {
+    display: block;
+  }
+  #hamburger {
+    visibility: visible;
+  }
+}
+
 
 .leftCol {
   border: 1px solid #000;
