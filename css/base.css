@@ -6,10 +6,9 @@ body {
 }
 
 //responsive design
-@media only screen and (max-width: 500px){
-  .hide{
+@media only screen and (max-width: 750px){
+  #hide {
     visibility: hidden;
-    padding: 2px;
   }
 }
 

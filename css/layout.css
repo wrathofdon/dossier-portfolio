@@ -32,7 +32,7 @@ div.container {
   height: 65px;
 }
 
-.hide {
+#hide {
   float: right;
   padding: 5px;
   text-align: center;
